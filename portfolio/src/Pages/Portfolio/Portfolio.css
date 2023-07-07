@@ -1,0 +1,71 @@
+.bodyPort {
+  margin-left: 7rem;
+  margin-top: 5rem;
+}
+
+h1 {
+  font-size: 60px;
+  margin-bottom: 3rem;
+}
+
+.sectionProject {
+  display: flex;
+  align-items: center;
+  margin-bottom: 3rem;
+}
+
+.image1 {
+  background-image: url(../../assets/puissance4.png);
+  background-repeat: no-repeat;
+  width: 58vh;
+  height: 37vh;
+  margin-right: 5rem;
+}
+
+.image2 {
+  background-image: url(../../assets/yu-gi-oh.png);
+  background-repeat: no-repeat;
+  width: 58vh;
+  height: 37vh;
+  margin-right: 5rem;
+}
+
+.image3 {
+  background-image: url(../../assets/otium.png);
+  background-repeat: no-repeat;
+  width: 58vh;
+  height: 37vh;
+  margin-right: 5rem;
+}
+
+.descImage {
+    width: 31vh;
+}
+
+.descImage3 {
+    width: 45vh;
+}
+
+h2 {
+    margin-bottom: 2rem;
+    font-size: 30px;
+}
+
+.linkGit {
+  display: flex;
+  justify-content: space-between;
+  width: 11rem;
+  margin-top: 2rem;
+}
+
+.logoGit {
+  background-image: url(../../assets/github.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 2.5rem;
+  height: 2.5rem;
+}
+
+.button2 > div {
+    font-size: large;
+}

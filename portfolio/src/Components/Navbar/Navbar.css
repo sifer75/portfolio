@@ -1,0 +1,51 @@
+.menuHeader {
+  background-color: black;
+  display: flex;
+  height: 4rem;
+  align-items: center;
+  color: white;
+  border-radius: 50px 50px 50px 50px;
+  margin: 1rem 2rem 0rem 2rem;
+  justify-content: space-between;
+}
+
+.menuButton {
+    display: flex;
+    align-items: center;
+    background-color: transparent;
+}
+
+.button {
+  background-color: rgb(254,120,82);
+  border-radius: 50px 50px 50px 50px;
+  height: 2.5rem;
+  width: 10rem;
+  margin-right: 0.8rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.menu {
+  display: flex;
+  width: 10rem;
+  justify-content: space-between;
+  list-style: none;
+  margin-right: 2rem;
+  background-color: transparent;
+}
+
+.logo {
+  margin-left: 2rem;
+  background-color: transparent;
+}
+
+.lien {
+  text-decoration: none;
+  color: white;
+  background-color: transparent;
+}
+
+.lien > p {
+  background-color: black;
+}
