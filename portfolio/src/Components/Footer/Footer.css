@@ -42,7 +42,7 @@
 }
 
 .buttonFooter {
-  border-radius: 100%;
+  border-radius: 100px;
   height: 50px;
   width: 50px;
   display: flex;
@@ -82,4 +82,11 @@
 
 .textFooter {
   font-size: 20px;
+}
+
+@media (max-width: 860px) {
+  .footer {
+    display: flex;
+    justify-content: center;
+  }
 }

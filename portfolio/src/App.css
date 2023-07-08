@@ -8,6 +8,11 @@ body {
 }
 
 p {
-  
   text-decoration-line: none;
+}
+
+@media (max-width: 860px) {
+  .displaying {
+    display: none;
+  }
 }

@@ -49,3 +49,18 @@
 .lien > p {
   background-color: black;
 }
+
+@media (max-width: 600px) {
+  .displaying2 {
+    display: none;
+  }
+
+  .centering2 {
+    display: flex;
+    justify-content: center;
+  }
+
+  .menu {
+    margin-right: 0rem;
+  }
+}

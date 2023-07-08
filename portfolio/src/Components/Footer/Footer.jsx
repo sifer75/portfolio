@@ -6,7 +6,7 @@ function Footer() {
   return (
     <div className="footer">
       <div className="description">
-        <p className="textFooter">Taupin Fabien</p>
+        <p className="textFooter displaying">Taupin Fabien</p>
       </div>
       <div className="direction">
         <div>
@@ -24,10 +24,7 @@ function Footer() {
             <div className="linkedin"></div>
           </Link>
 
-          <Link
-            to="/cv"
-            className="buttonFooter"
-          >
+          <Link to="/cv" className="buttonFooter">
             <div className="cv"></div>
           </Link>
         </div>
